@@ -1,0 +1,59 @@
+<!--pages/list/list.wxml-->
+<!-- <view class="container1">
+  <view>A</view>
+  <view>B</view>
+  <view>C</view>
+</view> -->
+<!-- scroll-x 允许横向滚动 -->
+<!-- scroll-y 允许纵向滚动 -->
+
+<!-- <scroll-view class="container2" scroll-y>
+  <view>A</view>
+  <view>B</view>
+  <view>C</view>
+</scroll-view> -->
+
+
+<!-- 轮播图结构 -->
+<!-- <swiper class="swiper-container" indicator-dots indicator-color="#fff" indicator-active-color="red" autoplay interval="1000" circular="true"> -->
+<!-- 第一个轮播图 -->
+<!-- <swiper-item>
+    <view class="item">A</view>
+  </swiper-item> -->
+
+<!-- 第二个轮播图 -->
+<!-- <swiper-item>
+    <view class="item">B</view>
+  </swiper-item> -->
+
+<!-- 第三个轮播图 -->
+<!-- <swiper-item>
+    <view class="item">C</view>
+  </swiper-item>
+</swiper> -->
+
+
+<!-- user-select 属性支持长按选中效果 -->
+<!-- <view>手机号支持长按选中效果:
+  <text user-select>13319131467</text>
+</view> -->
+
+<!-- 将html 转成 wxml -->
+<!-- <rich-text nodes="<h1 style='color:red;'>标题</h1>" /> -->
+
+<!-- 通过type 属性指定按钮颜色类型 -->
+<!-- <button>普通按钮</button>
+<button type="primary">普通按钮</button>
+<button type="warn">普通按钮</button> -->
+<!-- size="mini" 小尺寸按钮 -->
+<!-- <button size="mini">默认按钮</button>
+<button size="mini" type="primary">普通按钮</button>
+<button size="mini" type="warn">普通按钮</button> -->
+<!-- plain 镂空按钮 -->
+<!-- <button size="mini" plain>默认按钮</button>
+<button size="mini" type="primary" plain>普通按钮</button>
+<button size="mini" type="warn" plain>普通按钮</button> -->
+
+<!-- image 图片组件 -->
+<image src="" mode=""/>
+<image src="/images/bgc.png" mode="widthFix" />
