@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<!-- <view>{{info}}</view>
+
+<image src="{{img}}" mode="widthFix" />
+
+<view>{{randomNum1 }}</view>
+<view>{{randomNum1 >= 5 ?'数字大于或等于5':'数字小于5'}}</view>
+
+<view>{{ randomNum2 * 100 }}</view> -->
+
+<!-- 事件绑定 -->
+<!-- <button type="primary" bind:tap="btnTaphandler">按钮</button> -->
+
+<!-- <view>{{count}}</view> -->
+<!-- <button type="primary" bind:tap="countChange">+1</button> -->
+
+<!-- <button type="primary" bind:tap="btnTap2" data-info="{{2}}">+2</button> -->
+
+<!-- <input bindinput="inputHandler" type="text" /> -->
+
+<!-- <input value="{{msg}}" bindinput="iptHandler" type="text" /> -->
+
+<!-- 条件渲染 -->
+<!-- <view wx:if="{{type === 1}}">男</view>
+<view wx:elif="{{type === 2}}">女</view>
+<view wx:else>未知</view> -->
+
+<!-- block 是一个包裹性质的容器  -->
+<!-- <block wx:if="{{true}}">
+  <view>view1</view>
+  <view>view2</view>
+</block> -->
+
+<!-- <view hidden="{{!flag}}">条件为true的时候隐藏元素，否则显示</view> -->
+
+<!-- <view wx:if="{{flag}}">这是使用wx:if控制的元素</view> -->
+
+<!-- 列表渲染 -->
+<!-- <view wx:for="{{arr1}}">
+  索引是：{{index}} , item是： {{arr1[index]}}
+</view> -->
+
+<!-- <view wx:for="{{arr1}}" wx:for-index="idx" wx:for-item="itemName">
+  索引是：{{idx}} , item是： {{itemName}}
+</view> -->
+
+<view class="username" wx:for="{{userList}}" wx:key="id">
+  {{item.name}}
+</view>

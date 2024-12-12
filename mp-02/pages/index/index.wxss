@@ -1,0 +1,17 @@
+/**index.wxss**/
+@import '/common/common.wxss';
+
+view {
+  background-color: green;
+}
+
+view:nth-child(1) {
+  background-color: lightskyblue;
+}
+
+input {
+  border: 1px solid #eee;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+}
