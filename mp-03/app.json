@@ -3,12 +3,16 @@
     "pages/home/home",
     "pages/message/message",
     "pages/contact/contact",
-    "pages/shopList/shopList"
+    "pages/info/info"
   ],
   "window": {
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "本地生活",
-    "navigationBarBackgroundColor": "#2b4b6b"
+    "navigationBarTitleText": "牛马程序员",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#efefef",
+    "backgroundTextStyle": "dark",
+    "onReachBottomDistance": 200
   },
   "tabBar": {
     "list": [

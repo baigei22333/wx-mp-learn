@@ -1,0 +1,7 @@
+<!--pages/info/info.wxml-->
+<text>pages/info/info.wxml</text>
+<!-- delta 默认是1 -->
+<!-- <navigator open-type="navigateBack" delta="1">后退</navigator> -->
+<navigator open-type="navigateBack">后退</navigator>
+
+<button bind:tap="goBack">后退</button>

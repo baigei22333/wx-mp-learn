@@ -1,0 +1,20 @@
+<!--pages/home/home.wxml-->
+<text>pages/home/home.wxml</text>
+
+<!--
+  1、 url 地址必须以 / 开头 
+  2、open-type必须赋值 switchTab
+ -->
+<navigator url="/pages/message/message" open-type="switchTab">导航到消息页面</navigator>
+
+<!-- 跳转到 非 tabBar 页面 -->
+<navigator url="/pages/info/info">导航到info页面</navigator>
+
+<button bind:tap="gotoMessage">跳转到message</button>
+
+<button bind:tap="gotoInfo">跳转到info页面</button>
+
+<navigator url="/pages/info/info?name=zs&age=20">跳转到info页面</navigator>
+
+<button bind:tap="gotoInfo2">跳转到info页面</button>
+<view class="box"></view>
