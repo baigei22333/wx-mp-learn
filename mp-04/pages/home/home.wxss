@@ -1,0 +1,9 @@
+/* pages/home/home.wxss */
+.box {
+  height: 2000rpx;
+  background-color: lightblue;
+}
+
+button {
+  margin-right: 10rpx;
+}

@@ -1,0 +1,7 @@
+.colorBox {
+  line-height: 200rpx;
+  font-size: 24rpx;
+  color: #ffffff;
+  text-shadow: 0rpx 0rpx 2rpx #000;
+  text-align: center;
+}
